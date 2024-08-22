@@ -1,0 +1,12 @@
+
+public abstract class Contratista {
+	
+	public void radicarInforme() {
+		System.out.println("Informe radicado");
+	}
+	
+	public abstract void cuentaCobro();
+		
+	
+
+}

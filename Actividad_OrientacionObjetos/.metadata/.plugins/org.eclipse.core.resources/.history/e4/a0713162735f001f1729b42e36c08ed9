@@ -1,0 +1,10 @@
+
+public interface Empleado {
+	
+	public void cobrarSueldo() {
+		
+		
+		
+	}
+
+}

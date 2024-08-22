@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Stack;
+
+public class Practica {
+	
+	public static int suma (int a, int b) {
+		return a+b;
+	}
+	
+	public static void main(String[] args) {
+		ArrayList<String> ciudades = new ArrayList<>();
+		LinkedList<String> nombres = new LinkedList<>();
+		PriorityQueue<String> palabras = new PriorityQueue<>();
+		Stack<String> apellidos = new Stack<>();
+		HashMap<String, Integer> estudiantes = new HashMap<>();
+		
+		ciudades.add("Armenia");
+		ciudades.add("Pereira");
+		ciudades.add("Manizales");
+		ciudades.set(1, "Alemania");
+		
+		
+		for(String elemento:ciudades) {
+			System.out.println(elemento);
+		}
+		
+	}
+	
+	
+	
+
+}

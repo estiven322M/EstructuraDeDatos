@@ -1,0 +1,10 @@
+
+public class Persona {
+	
+	private long cedula;
+	
+	public void entrar() {
+		
+	}
+
+}
