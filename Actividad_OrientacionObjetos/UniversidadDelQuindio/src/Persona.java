@@ -1,5 +1,5 @@
 
-public class Persona {
+public class Persona { //esta clase concreta va a heredear atributos a el resto de personal de la universidad
 	
 	private long cedula;
 	
